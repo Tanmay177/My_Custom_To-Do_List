@@ -11,15 +11,38 @@
 .container{
     width: 100%;
     min-height: 100vh;
+    display: flex;
     
     background-color: #efd002;
     background-image: linear-gradient(319deg, #efd002 0%, #31b74a 37%, #442ce0 100%);
     padding: 10px;
 }
 
+
+.daily{
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 11px;
+}
+
+.daily h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.daily h2 img{
+    width: 70px;
+    margin-left: 20px;
+}
+
 .todo-app{
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     background: #fff;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
